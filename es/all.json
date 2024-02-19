@@ -50,7 +50,8 @@
         "KEYWORDS": "versión"
       },
       "SUPPORT": {
-        "TITLE": "Soporte"
+        "TITLE": "Soporte",
+        "KEYWORDS": "soporte incidencia "
       },
       "PRIVACY": {
         "TITLE": "Privacidad",
@@ -78,8 +79,18 @@
           "DESCRIPTION": "Restablecer todas las configuraciones de las tarjetas a sus valores predeterminados.",
           "CONFIRM_MESSAGE": "¿Está seguro de que desea restablecer todas las configuraciones de las tarjetas a sus valores predeterminados?"
         },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Máximo de Tarjetas Nuevas por Día"
+        },
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Al mostrar una tarjeta, reproduce automáticamente cualquier audio o video que contenga."
+        },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
           "TITLE": "Botones de tarjetas simples"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "TITLE": "El proxima día comienza en",
+          "DESCRIPTION": "Nuevas tarjetas aparecen en su cola todos los días a esta hora."
         }
       }
     },
@@ -101,7 +112,290 @@
       "GENERAL": {
         "ENABLE_SPELLCHECK": {
           "TITLE": "Habilitar revisión ortográfica"
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "TITLE": "Crear Conceptos a Partir de la Búsqueda"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "TITLE": "Insertar Emoticono Como Referencias",
+          "DESCRIPTION": "Al buscar con %% y seleccionar un emoticono, este se insertará como referencia."
         }
+      },
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "TITLE": "Formato de fecha"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "TITLE": "Formato De Fecha Personalizado"
+        },
+        "TIME_FORMATTING": {
+          "TITLE": "Formato de hora"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "TITLE": "La semana empieza el lunes",
+          "DESCRIPTION": "Al seleccionar fechas en un selector de fechas, comience cada fila del calendario con el lunes en lugar del domingo."
+        }
+      }
+    },
+    "PLANS": {
+      "TITLE": "Planes"
+    },
+    "EARN_CREDIT": {
+      "TITLE": "Ganar créditos",
+      "INVITE_FRIENDS_REMNOTE": "¡Invita a tus amigos a RemNote!",
+      "CREDIT_BALANCE": "Saldo de Créditos",
+      "TOAST_SUBSCRIBE": "Sus créditos se recibirán automáticamente cuando se suscriba a RemNote Pro. ¡Elija un plan a continuación para comenzar!",
+      "TOAST_RENEW": "Sus créditos se recibirán automáticamente cuando se renueve su suscripción actual.",
+      "APPLY_CREDIT": "Utiliza tus creditos",
+      "INVITE_TEXT": "Invita a amigos y gana creditos",
+      "HANG_ON": "Espere",
+      "CREATE_ACCOUNT": "Crea una cuenta para invitar amigos",
+      "ENTER_VALID_EMAIL": "¡Ingrese un email valido!",
+      "SEND_INVITE": "Enviar invitación",
+      "FRIEND_ALREADY_ON_REMNOTE": "Tu amigo ya está en RemNote",
+      "INVITE_ERROR": "Algo salió mal. Por favor, inténtelo de nuevo más tarde.",
+      "VERIFY_EMAIL": "Para invitar a alguien, primero verifique su correo electrónico.",
+      "INVITE_EMAIL": "Invitar por correo electrónico",
+      "EMAIL_PLACEHOLDER": "amigocurioso@gmail.com",
+      "INVITE": "Invitar",
+      "SHARE_LINK": "Compartir enlace de invitación",
+      "COPIED": "¡Copiado!",
+      "INVITE_COPIED": "¡Enlace de invitación copiado!",
+      "COPYLINK": "Copiar enlace",
+      "FRIENDS_TITLE": "Amigos",
+      "INVITED_YOU": " (Te invitó)",
+      "NOT_CONFIRMED_EMAIL": " (no ha confirmado el correo electrónico)"
+    },
+    "GLOBAL_INTERFACE": {
+      "DARK_MODE": {
+        "TITLE": "Modo oscuro",
+        "LABEL": "Utilice esta paleta de colores."
+      },
+      "FULL_WIDTH": {
+        "TITLE": "Ancho completo",
+        "LABEL": "Expandir documentos para utilizar todo el ancho de la pantalla."
+      },
+      "SIMPLIFIED_UI": {
+        "TITLE": "Interfaz Simplificada",
+        "LABEL": "Simplificar la interfaz y ocultar funciones avanzadas."
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "TITLE": "Tutoriales dentro de la aplicación"
+      },
+      "INTERFACE": {
+        "TITLE": "Idioma de la interfaz de RemNote"
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "TITLE": "Abrir referencias con un solo clic"
+      }
+    },
+    "SIDEBAR": {
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "Personalizar las secciones de la barra lateral"
+      },
+      "SORT_SIDEBAR": {
+        "TITLE": "Ordenar barra lateral"
+      },
+      "PRIVACY_NOTE": "Privacidad: lea nuestra<policyLink>política de privacidad</policyLink>, o cambie su configuración en nuestro<hubLink>Centro de privacidad</hubLink> ."
+    },
+    "NOTIFICATIONS": {
+      "ENABLE_PUSH_LABEL": "Reciba notificaciones directamente en su dispositivo",
+      "ENABLE_EMAIL_TITLE": "¿Habilitar notificaciones por correo electrónico?",
+      "ENABLE_EMAIL_LABEL": "Reciba notificaciones directamente en su bandeja de entrada",
+      "TOGGLE_TITLE": "Filtrar notificaciones",
+      "TOGGLE_LABEL": "Controla qué notificaciones quieres recibir directamente en tu dispositivo/bandeja de entrada",
+      "DESCRIPTIONS": {
+        "STREAK": {
+          "TITLE": "Notificaciones de racha",
+          "LABEL": "¡Recibe notificaciones diarias para mantener tu racha de estudio!"
+        },
+        "INVITE": {
+          "TITLE": "Notificaciones de invitación",
+          "LABEL": "Recibe una notificación cuando te inviten a un grupo"
+        },
+        "NEW_FOLLOWER": {
+          "TITLE": "Notificaciones de seguidores",
+          "LABEL": "Recibe una notificación cuando alguien te sigue"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "TITLE": "Documento agregado a la notificación del grupo.",
+          "LABEL": "Reciba una notificación cuando se agregue un documento a su grupo"
+        },
+        "NEW_COMMENT": {
+          "LABEL": "Reciba una notificación cuando alguien comente su documento compartido"
+        },
+        "ARTICLE_VIEWS": {
+          "TITLE": "Notificaciones de vistas de documentos",
+          "LABEL": "Reciba una notificación cuando su documento compartido comience a obtener vistas significativas"
+        }
+      }
+    }
+  },
+  "TAGS": {
+    "INSERT_PROPERTIES": "Insertar propiedades"
+  },
+  "TEMPLATES": {
+    "TEMPLATE_one": "Plantilla",
+    "TEMPLATE_other": "Plantillas",
+    "CREATE_TEMPLATE": "Crear plantilla",
+    "NEW_TEMPLATE": "Nueva plantilla",
+    "PROPERTY_one": "Propiedad",
+    "PROPERTY_other": "Propiedades",
+    "ADD_NEW_PROPERTY": "Agregar Nueva Propiedad",
+    "AUTO_APPLY": "Aplicar automáticamente"
+  },
+  "TABLES": {
+    "PRIMARY_COLUMN_TITLE": "Nombre",
+    "UNTITLED_PROPERTY_TITLE": "Propiedad sin título",
+    "MENUS": {
+      "FILTER": {
+        "FILTER_TITLE": "Filtrar",
+        "ADD_ADVANCED_FILTER": "Añadir Filtro Avanzado",
+        "NO_PROPERTIES_AVAILABLE": "No hay propiedades disponibles; ¡Agrega una nueva!"
+      },
+      "SORT": {
+        "SORT_TITLE": "Ordenar"
+      },
+      "TABLE_CONFIGURATION": {
+        "TABLE_CONFIGURATION_TITLE": "Tabla",
+        "LIST_CONFIGURATION_TITLE": "Lista",
+        "ALL": "Todo",
+        "VIEW_AS": {
+          "VIEW_AS_TITLE": "Ver como",
+          "TABLE_VIEW": "Tabla",
+          "NORMAL_PORTAL_VIEW": "Portal",
+          "LIST_VIEW": "Lista"
+        },
+        "PROPERTIES_TITLE": "Propiedades",
+        "PROPERTIES_CONFIGURATION_TITLE": "Configurar",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "Abrir en otro panel",
+        "ZOOM_IN_TO_TABLE_TITLE": "Ampliar la tabla",
+        "ZOOM_IN_TO_LIST_TITLE": "Ampliar la lista",
+        "MOVE_TABLE_TO_TITLE": "Mover Tabla A",
+        "MOVE_LIST_TO_TITLE": "Mover Lista A",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Duplicar Vista de Tabla",
+        "ADD_TABLE_VIEW_TITLE": "Añadir Vista de Tabla",
+        "ADD_LIST_VIEW_TITLE": "Añadir vista de lista",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostrar líneas verticales",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "Altura de la celda",
+          "COMFORTABLE_TITLE": "Cómodo",
+          "COMPACT_TITLE": "Compacto"
+        },
+        "DELETE_TABLE": "Eliminar tabla",
+        "DELETE_LIST": "Eliminar lista"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Todas las notas",
+    "LABEL_TODAYS_NOTE": "Nota de hoy",
+    "LABEL_FLASHCARDS": "Tarjetas",
+    "LABEL_EDIT_LATER": "Editar más tarde",
+    "LABEL_COMMUNITY": "Tarjetas compartidas",
+    "LABEL_INTERACTIVE_TOUR": "Tour interactivo",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Reanudar el tour interactivo",
+    "LABEL_TUTORIALS": "Tutoriales",
+    "TOOLTIP_FLASHCARD_HOME": "Ir a la página de inicio de la tarjeta"
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "TITLE": "Todas las notas",
+      "SORT": {
+        "RECENTLY_MODIFIED": "Modificado recientemente",
+        "RECENTLY_CREATED": "Creado recientemente",
+        "OLDEST_FIRST": "Más antiguo primero",
+        "BY_CREATION_TIME": "Por fecha de creación",
+        "BY_TITLE": "Por titulo",
+        "BY_MODIFICATION": "Por modificación",
+        "ASCENDING": "A -> Z",
+        "DESCENDING": "Z -> A"
+      }
+    }
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "LABEL": "Enlace",
+      "ENTER_URL": "Introducir URL",
+      "INVALID_URL": "URL invalida",
+      "SEARCH_PLACEHOLDER": "Pegue un enlace o busque una referencia",
+      "LINK": "Enlace",
+      "LINK_WITH_COUNT_one": "{{count, number}} Enlace",
+      "LINK_WITH_COUNT_other": "{{count, number}} Enlaces"
+    },
+    "UPLOAD_SOURCE": {
+      "LABEL": "Subir",
+      "SELECT_FILES": "Seleccionar archivos",
+      "SELECT_FILES_TO_UPLOAD": "Seleccionar archivos para subir",
+      "EMPTY": "Arrastre archivos PDF, documentos de Word, PPTs y<moreLink> más</moreLink> ¡aquí!",
+      "INVALID": "¡Formato de archivo incorrecto!",
+      "UPLOADING": "Subiendo...",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} archivos PDF"
+    }
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_TITLE": {
+            "SRC": "El documento que estás intentando compartir no tiene título. Debes agregar uno antes de publicarlo.",
+            "SUBDOCUMENT": "Uno de sus subdocumentos no tiene título. No se publicará hasta que tenga uno."
+          },
+          "NO_CONTENT": {
+            "SRC": "El documento que estás intentando compartir parece un poco vacío. Agregue al menos {{minimum}} rems y vuelva a intentarlo.",
+            "SUBDOCUMENT": "Uno de sus subdocumentos parece un poco vacío. No se publicará hasta que tenga {{minimum}} rems."
+          }
+        }
+      }
+    }
+  },
+  "NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "te ha invitado a unirte",
+      "ACCEPT": "Aceptar invitación",
+      "REJECT": "Rechazar"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "te siguió"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "fue añadido a"
+    },
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Tu documento",
+      "BODY_2": "ha obtenido {{viewCount, number}} visualizaciones"
+    },
+    "IMPORT": {
+      "BODY": "Alguien importó tu documento"
+    },
+    "NEW_COMMENT": {
+      "BODY_ARTICLE": "comentó en tu documento",
+      "BODY_COMMENT": "respondió a tu comentario",
+      "BODY_GROUP": "envié un chat a tu grupo"
+    },
+    "EMPTY_STATE_TITLE": "No tienes notificaciones recientes",
+    "POPUP_TITLE": "Notificaciones recientes",
+    "GROUP_DEFAULT": "Tu grupo"
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "TITLE": "Documento"
+      },
+      "QUICK_ADD": {
+        "TITLE": "Agregar rápido"
+      },
+      "TODAYS_DOCUMENT": {
+        "TITLE": "Documento de hoy",
+        "DESCRIPTION": "Los documentos diarios son perfectos para llevar un diario, listas de tareas pendientes y más."
+      },
+      "FOLDER": {
+        "TITLE": "Carpeta",
+        "DESCRIPTION": "Organiza documentos en carpetas."
       }
     }
   }
