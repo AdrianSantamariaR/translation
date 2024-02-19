@@ -1,0 +1,108 @@
+{
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Idioma",
+    "TRANSLATION_INFO_SETTINGS": "La traducción aún está en progreso; Verá una combinación de inglés y el idioma seleccionado.<br> Puedes ayudarnos a traducir leyendo el<guideLink> tutorial</guideLink> y luego usando nuestro<editorLink> Editor web</editorLink> ."
+  },
+  "COMMON": {
+    "ACTIONS": {
+      "CREATE": "Crear",
+      "REMOVE": "Borrar",
+      "DELETE": "Eliminar",
+      "EDIT": "Editar",
+      "DUPLICATE": "Duplicar",
+      "APPLY": "Aplicar",
+      "UPDATE": "Actualizar",
+      "VIEW": "Visualizar",
+      "HIDE": "Ocultar"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "PROFILE_TITLE": "Perfil",
+      "MY_PROFILE": "Mi Perfil",
+      "PROFILE": {
+        "KEYWORDS": "Perfil de Usuario Personal"
+      },
+      "IMPORT_EXPORT_TITLE": "Importar y Exportar",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exportar Copia de seguridad Exportar Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "NAVIGATION_TITLE": "Navegación",
+      "AUTHENTICATION_TITLE": "Autenticación",
+      "ADVANCED_TITLE": "Configuración Avanzada",
+      "ADVANCED": {
+        "KEYWORDS": "Soporte Recargar Buscar Arreglar Error"
+      },
+      "DANGER_ZONE_TITLE": "Zona de Peligro",
+      "PRIVACY_NOTE": "Privacidad: Lea nuestra <policyLink>Política de Privaciad</policyLink>, o cambia tu configuración en nuestro <hubLink>Centro de privacidad</hubLink>.",
+      "DANGER_ZONE": {
+        "TITLE": "Zona de Peligro"
+      },
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Envíe notificaciones a su móvil sobre su racha diaria de tarjetas. Los recordatorios son enviados a las 18h todos los días, en su horario local."
+      },
+      "SYNCING": {
+        "TITLE": "Sincronizando",
+        "KEYWORDS": "Forzar Sincronización de Imagenes y PDFs"
+      },
+      "VERSION": {
+        "TITLE": "Versión de aplicación",
+        "KEYWORDS": "versión"
+      },
+      "SUPPORT": {
+        "TITLE": "Soporte"
+      },
+      "PRIVACY": {
+        "TITLE": "Privacidad",
+        "KEYWORDS": "privacidad"
+      }
+    },
+    "FLASHCARDS": {
+      "AI": {
+        "ENABLE": {
+          "TITLE": "Activar herramientas de IA"
+        },
+        "OPENAI_KEY": {
+          "TITLE": "Clave API de OpenAI"
+        }
+      },
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "Meta Máxima Diaria"
+        },
+        "TODAYS_TARGET": "Objetivo de hoy:"
+      },
+      "GENERAL": {
+        "RESET_ALL": {
+          "TITLE": "Restablecer Todas las Configuraciones De Tarjetas a sus valores predeterminados",
+          "DESCRIPTION": "Restablecer todas las configuraciones de las tarjetas a sus valores predeterminados.",
+          "CONFIRM_MESSAGE": "¿Está seguro de que desea restablecer todas las configuraciones de las tarjetas a sus valores predeterminados?"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "TITLE": "Botones de tarjetas simples"
+        }
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "SPLIT_WITH_ALT_ENTER": {
+        "TITLE": {
+          "PC": "Salto de línea con Alt+Enter",
+          "MAC": "Salto de Línea con Opt+Return"
+        }
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "DESCRIPTION": "Escriba // en lugar de / para activar comandos mientras edita Rems."
+      },
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "TITLE": "Cambiar Atajos de Teclado"
+      }
+    },
+    "EDITOR": {
+      "GENERAL": {
+        "ENABLE_SPELLCHECK": {
+          "TITLE": "Habilitar revisión ortográfica"
+        }
+      }
+    }
+  }
+}
